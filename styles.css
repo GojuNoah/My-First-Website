@@ -1,0 +1,150 @@
+@charset "utf-8";
+html {
+	overflow: scroll;
+	scroll-behavior: smooth;
+  }
+/* Style rules for head */
+head {
+	font-family: 'Roboto Mono', monospace;
+	position: -webkit-sticky;
+	position: sticky;
+} 
+/* style rules for body */
+body {
+	background-color:  #676767;
+	margin: 0;
+}
+/* Style rules for body img */
+body img {
+	float: right;
+	height: 200px;
+	padding: 30px;
+	width: 400px;
+} 
+/* Style rules for mobile viewport */
+header {
+	top: 0;
+	width: 100%;
+} 
+/* Style rules for nav */
+nav ul {
+	background-color: #6699CC;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	position: -webkit-sticky;
+	position: sticky;
+	width: 100%;
+	display: flex;
+    align-items: center;
+} 
+nav ul li {
+	display: inline;
+} 
+nav ul li a {
+	color: white;
+	font-size: 35px;
+	text-decoration: none;
+	margin: 80px;
+	padding-top: 25px;+4
+}
+/* Style rules for h1 */
+h1 {
+	color: #ffffff;
+} 
+/* Style rules for tables */
+table {
+	border: 1px solid #003B6D;
+	width: 100%;
+}
+table tr {
+	border: 1px solid #003B6D;
+	color: #f2ebeb;
+	text-align: center;
+}
+table tr td {
+	border: 1px solid #003B6D;
+	color: #f2ebeb;
+	text-align: center;
+}
+.headingsr {
+	border-left: 6px solid #003B6D;
+	border-right: 6px solid #003B6D;
+	float: right;
+	margin-right: 200px;
+	margin-top: 50px;
+	padding: 6px;
+}
+.headingsl {
+	border-left: 6px solid #003B6D;
+	border-right: 6px solid #003B6D;
+	float: left;
+	margin-left: 325px;
+	margin-top: 100px;
+	padding: 6px;
+}
+.imgl {
+	border-radius: 20%;
+	float: left;
+	height: 200px;
+	width: 400px;
+}
+.imgr {
+	border-radius: 20%;
+	float: right;
+	height: 300px;
+	margin-top: 50px;
+	width: 400px;
+}
+.infor {
+	float: right;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.25em;
+	text-align: center;
+	margin-right: 50px;
+}
+.infol {
+	float: left;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	margin-left: 50px;
+}
+/* Style rules for footer */
+footer {
+	bottom: 0;
+	background-color: #003B6D;
+	position: fixed;
+	width: 100%;
+} 
+/* Style rules for SM icons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+/* Style rules for form */ 
+form {
+	color: #EBEDF3;
+	float: right;
+	margin-right: 25px;
+	padding: 20px;
+	width: 25%;
+}
