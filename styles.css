@@ -28,6 +28,9 @@ header {
 } 
 /* Style rules for nav */
 nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: #6699CC;
 	height: 100px;
 	margin: 0;
@@ -35,19 +38,24 @@ nav ul {
 	position: -webkit-sticky;
 	position: sticky;
 	width: 100%;
+  }
+  nav ul li {
 	display: flex;
-    align-items: center;
-} 
-nav ul li {
-	display: inline;
-} 
-nav ul li a {
+	align-items: center;
+	margin: 0;
+  }
+  nav ul li a {
 	color: white;
-	font-size: 35px;
+	display: flex;
+	align-items: center;
+ 	font-size: 20px; 
 	text-decoration: none;
-	margin: 80px;
-	padding-top: 25px;+4
-}
+ 	margin: 60px;
+	padding: 25px;
+  }
+  nav ul li a:hover {
+	background-color: #003B6D;
+  }
 /* Style rules for h1 */
 h1 {
 	color: #ffffff;
@@ -128,7 +136,7 @@ footer {
   }
   
   .fa:hover {
-	  opacity: 0.7;
+	opacity: 0.7;
   }
   
   .fa-facebook {
